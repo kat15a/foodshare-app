@@ -1,6 +1,6 @@
-🍽️FoodShare App
+🍽️FoodShare
 
-FoodShare App is a full-stack web application designed to manage and reduce food waste. It allows users to register, log in, and interact with the system to donate or request food.
+FoodShare  is a full-stack website designed to manage and reduce food waste. It allows users to register, log in, and interact with the system to donate or request food.
 
 ---
 
