@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+
+.home-container {
+  background-color: #0f172a;
+  color: white;
+  height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+}
+
+.nav-links span {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.signup-btn {
+  background: white;
+  color: black;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  color: #94a3b8;
+}
+
+.main-btn {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #ec4899, #f43f5e);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+
+/* 🔥 FINAL IMAGE SECTION */
+
+/* wrapper (subtle glow, no box effect) */
+.hero-image {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: radial-gradient(
+    circle at center,
+    rgba(236, 72, 153, 0.08),
+    transparent 70%
+  );
+
+  border-radius: 20px;
+}
+
+/* image */
+.hero-image img {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 20px;
+
+  /* 🔥 PERFECT BLEND */
+  mix-blend-mode: lighten;
+  filter: brightness(1.08) contrast(1.05);
+}
